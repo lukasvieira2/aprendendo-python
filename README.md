@@ -8,3 +8,5 @@
 - Tipos de dado
     - Int
     - String
+    - float
+    - bolean
