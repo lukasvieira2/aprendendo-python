@@ -2,7 +2,7 @@ valorTotalCompras= float(input("qual é o valor total das compras? R$ ?"))
 
 if valorTotalCompras<=100:
     print(f"o valor total sem desconto {valorTotalCompras:.2f}")
-    
+
 elif valorTotalCompras <=300:
     desconto = valorTotalCompras * 5/100
     valorComDesconto = valorTotalCompras - desconto
