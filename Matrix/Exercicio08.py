@@ -6,13 +6,11 @@ notas = [
 
 medias = []
 
-# Calculando a média de cada linha (aluno)
 for linha in notas:
     soma_notas = sum(linha)
     quantidade_notas = len(linha)
     media_aluno = soma_notas / quantidade_notas
     medias.append(media_aluno)
 
-# Exibindo as médias
 for i, media in enumerate(medias):
     print(f"Média do Aluno {i + 1}: {media:.2f}")
