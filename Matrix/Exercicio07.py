@@ -8,13 +8,12 @@ matriz = [
 numero_buscado = int(input("Digite um número para buscar na matriz: "))
 
 achou = False
-
 for linha in range(len(matriz)):
-    for coluna in range(len(matriz[linha])):
-        if matriz[linha][coluna] == numero_buscado:
-            print(f"Número encontrado na Linha {linha}, Coluna {coluna}.")
-            achou = True
-            break
+  for coluna in range(len(matriz[linha])):
+    if matriz[linha][coluna] == numero_buscado:
+       print(f"Número encontrado na Linha {linha}, Coluna {coluna}.")
+       achou = True
+       break
 
-if not achou:
-    print("Número não encontrado")
+    if not achou:
+       print("Número não encontrado")
