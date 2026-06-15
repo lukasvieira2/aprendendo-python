@@ -5,7 +5,7 @@ dados_pessoais = {
     "sexo" : "m",
     "altura" : 1.70,
     "temCNH" : True
-}+
+}
 print(dados_pessoais.keys())
 dados_pessoais["altura"] = 1.85
 dados_pessoais["peso"] = 70
