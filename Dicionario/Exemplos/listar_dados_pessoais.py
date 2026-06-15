@@ -1,17 +1,7 @@
-dados_pessoais = {
-    "nome" : "joão",
-    "idade" : 21,
-    "nascimento" : "20-05-2005",
-    "sexo" : "m",
-    "altura" : 1.70,
-    "temCNH" : True
-}
+dados_pessoais = {"nome": "joão", "idade": 21, "nascimento": "20-05-2005", "sexo": "m", "altura": 1.85, "temCNH": True,
+                  "peso": 70}
 
-dados_pessoais["altura"] = 1.85
-dados_pessoais["peso"] = 70
-
-
-nova_chaves, novo_valor = input("digite uma nova chave e um novo valor ou realize uma atal mização de dado: ").split(",")
+nova_chaves, novo_valor = input("digite uma nova chave e um novo valor ou realize uma atualização de dado: ").split(",")
 
 dados_pessoais[nova_chaves] = novo_valor
 
