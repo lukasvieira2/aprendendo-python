@@ -5,6 +5,5 @@ pessoa = {
     "cidade": "São Paulo"
 }
 
-# Exibindo os dados na tela
 print(f"Nome: {pessoa['nome']}")
 print(f"Cidade: {pessoa['cidade']}")
